@@ -1,0 +1,24 @@
+問題1.3
+答え:A, C
+理由A:コンテナ型仮想化ではホストOSとカーネルを共有するため、仮想マシンよりもシステムリソースの消費が少ない。
+理由C:仮想マシンのゲストOSはホストOSとカーネルを分けているため、ゲストOS側がクラッシュしたとしてもホストOS側がクラッシュすることはない。
+
+
+問題1.5
+答え:pull
+
+
+独自問題
+centos:7という名前のイメージをdockerで起動するコマンド
+答え:sudo docker run centos:7
+
+終了したものも含めたコンテナの一覧を表示するコマンド
+答え:sudo docker ps -a
+
+
+動作させているcentos:7を終了させたい。なお、IDの最初の４文字は08ad
+答え:sudo docker rm 08ad
+
+
+centos:7という名前のイメージをdockerでtestという名前で起動し、シェルに入るコマンド
+答え:sudo docker -it --name test centos:7 /bin/bash
