@@ -9,7 +9,7 @@
 user -> group -> other
 
 ・test.txtのアクセス権限を変更します。以下の場合のコマンドを書いてください
- １）数値指定で所有者のみ読み込みと実行権限を与える chmod 5 test.txt
+ １）数値指定で所有者のみ読み込みと実行権限を与える chmod 500 test.txt
  ２）文字指定で全てのユーザの書き込み権限を削除する chmod a-w test.txt
 
 
