@@ -1,7 +1,7 @@
 独自問題（教科書を見ないで解答）
 
 catでtest.txtを行番号をつけて表示する。＊単語で指定
-答え：n
+答え：cat --number test.txt
 odでtest.txtをアスキー文字で表示する
 答え：cオプション
 test.txtの先頭２行のみを表示する
