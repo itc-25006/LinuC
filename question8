@@ -1,0 +1,24 @@
+独自問題（教科書を見ないで解答）
+
+catでtest.txtを行番号をつけて表示する。＊単語で指定
+答え：n
+odでtest.txtをアスキー文字で表示する
+答え：cオプション
+test.txtの先頭２行のみを表示する
+答え：head -n 2 test.txt
+trでtest.txtに含まれる文字bを削除して表示する
+答え：tr -d "b" test.txt
+pasteでt1.txtとt2.txtをCSV形式（区切り文字がカンマ）でt.txtとして出力
+答え：paste -d"." t1.txt t2.txt
+
+
+問題：3.4
+答え：tail
+
+
+問題：3.5
+答え：uniq
+
+
+問題：3.11
+答え：D
