@@ -9,7 +9,7 @@ test.txtの先頭２行のみを表示する
 trでtest.txtに含まれる文字bを削除して表示する
 答え：tr -d "b" test.txt
 pasteでt1.txtとt2.txtをCSV形式（区切り文字がカンマ）でt.txtとして出力
-答え：paste -d"." t1.txt t2.txt
+答え：paste -d"," t1.txt t2.txt
 
 
 問題：3.4
