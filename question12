@@ -5,7 +5,7 @@
 答え：b
 
 問題：5.3
-答え：mount -t /dev/sro /media/dvdrom
+答え：udf -t /dev/sro /media/dvdrom
 
 問題：5.4
 答え：unmount
